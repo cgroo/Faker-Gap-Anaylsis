@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE folders
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# ---- Data Science ----
+# Raw & processed data (keep repo lightweight and avoid licensing issues)
+data/raw/
+data/processed/
+data/external/
+
+# Large files
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.zip
+*.gz
+*.7z
+
+# Temporary notebook / cache files
+*.cache/
+.cache/
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# ---- OS & Misc ----
+Thumbs.db
