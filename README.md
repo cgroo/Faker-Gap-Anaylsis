@@ -23,18 +23,3 @@ The final result is a set of visualizations and metrics that describe the “Fak
 2. In which seasons or tournaments is the “gap” between Faker and other mid laners the largest?
 3. Does Faker outperform other mids equally in domestic leagues and international events?
 4. How sensitive is the “gap” to different definitions of dominance (laning vs teamfight impact vs consistency)?
-
--------------
-## Repository Structure
-
-faker-gap-analysis/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── raw/          # original data dumps (not committed)
-│   ├── processed/    # cleaned datasets ready for analysis
-│   └── external/     # manually downloaded or auxiliary datasets
-├── src/              # reusable pipeline + metric code
-├── notebooks/        # Jupyter notebooks for EDA and storytelling
-├── reports/          # figures and summary reports
-└── docs/             # detailed methodology and notes
